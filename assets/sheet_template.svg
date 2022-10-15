@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="{sheet_width}{unit}" height="{sheet_height}{unit}" x="0" y="0">
+    <g id="sheet">
+		<g id="horizontal">
+			{lines_horizontal}
+		</g>
+		<g id="vertical">
+			{lines_vertical}
+		</g>
+    </g>
+    
+    <defs>
+        <style>
+			:root {BO}
+				--square-size: {square_size}{unit};
+				--sheet-color: {sheet_color};
+				--line-width: {line_width}{unit};
+				--line-color: {line_color};
+			{BC}
+			
+			svg {BO} background: var(--sheet-color); {BC}
+            line {BO}
+				stroke: var(--line-color);
+				stroke-width: var(--line-width);
+			{BC}
+        </style>
+    </defs>
+</svg>

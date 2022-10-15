@@ -1,0 +1,11 @@
+{
+    "sheet-width": 210
+    , "sheet-height": 297
+    , "sheet-color": "#fff"
+    , "sheet-cropped": true
+    , "line-width": 0.2
+    , "line-color": "#d0d0d0"
+    , "square-size": 4
+    , "output-scale": 5
+    , "unit": "mm"
+}
